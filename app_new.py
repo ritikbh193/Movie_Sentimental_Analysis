@@ -37,26 +37,6 @@ def submit_form():
     return render_template('index.html', result=result, image=image)
 
 
- 
-
-
-# @app.route('/')
-# def home():
-
-#     return render_template('index.html', image=file,file2=file2)
-
-# @app.route('/submit_form', methods=['POST'])
-# def submit_form():
-#         sentence = request.form['sentence']
-#         sen = save_cv.transform([sentence]).toarray()
-#         res = model.predict(sen)[0]
-#         result = 'POSITIVE' if res == 1 else 'NEGATIVE' 
-#         image = 'happy.png' if res == 1 else 'sad.png'
-#         return render_template('index.html', result=result,image=image)
-
-
-
- 
 
 
 if __name__ == '__main__':
