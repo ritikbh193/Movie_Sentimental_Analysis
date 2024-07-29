@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review Sentiment Analysis</title>
+</head>
+<body>  <form action="/submit_form" method="post">
+    <input type="text" name="sentence" placeholder="Enter a movie review">
+    <input type="submit" value="Submit">
+  </form>
+    <h1>Prediction Result: {{ result }}</h1>
+    <img src="{{ image }}" alt="Result Image">
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Review Sentiment Analysis</title>
+</head>
+<body>
+  <form action="/submit_form" method="post">
+    <input type="text" name="sentence" placeholder="Enter a movie review">
+    <input type="submit" value="Submit">
+  </form>
+  {% if result is not none %}
+  <h2>Result: {{ result }}</h2>
+  <img src="{{ url_for('static', filename='image') }}" alt="{{ image }}">
+  {% endif %}
+</body>
+</html> -->
+
+
+
+<!-- how to see images in HTML -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rendering Local Images Using Flask</title>
+</head>
+<body>
+<img src= "{{image}}" >
+<img src= "{{file2}}" >
+</body>
+</html> -->
+
+<!-- <html>
+  <head>
+    <title> YOUR STORY </title>
+  </head>
+  <body>
+    <p>
+      This is my story and I love my story
+      <br>
+      To know more about my story check the page idea
+    </p>
+    <img src="static\image\happy.png">
+    <img src="static\image\sad.png">
+  </body>
+</html> -->
+
+
