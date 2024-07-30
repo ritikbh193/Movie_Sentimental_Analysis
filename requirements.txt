@@ -1,9 +1,9 @@
-Flask 
-numpy 
+Flask
+numpy
 pandas
 drive
 nltk
 re
 scikit-learn
 pickle
-Gunicorn
+gunicorn
