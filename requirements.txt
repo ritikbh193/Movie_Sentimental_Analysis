@@ -1,9 +1,7 @@
 Flask==3.0.3
 numpy==2.0.1
 pandas==2.2.2
-nltk==3.8.1
 scikit-learn==1.5.1
-matplotlib==3.9.1
 gunicorn==22.0.0
 
 
