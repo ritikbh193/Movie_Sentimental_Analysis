@@ -2,9 +2,9 @@ from flask import Flask,render_template,request
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 cv = CountVectorizer()
-import matplotlib.pylab as plt
-import io
-import base64
+# import matplotlib.pylab as plt
+# import io
+# import base64
 # from flask import Flask, render_template
 import os
 
