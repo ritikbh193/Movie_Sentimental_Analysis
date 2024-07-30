@@ -1,9 +1,9 @@
 Flask
 numpy
 pandas
-drive
+google-colab
 nltk
-re
+regex
 scikit-learn
 pickle
 gunicorn
