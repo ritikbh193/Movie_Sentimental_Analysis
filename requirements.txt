@@ -5,7 +5,7 @@ nltk==3.8.1
 scikit-learn==1.5.1
 matplotlib==3.9.1
 gunicorn==22.0.0
-google-colab==1.0.0
+
 
 
 
