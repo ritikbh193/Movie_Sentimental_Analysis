@@ -1,11 +1,11 @@
 
-Movie Sentiment Analysis
+## Movie Sentiment Analysis
 
 Movie sentiment analysis is a process that involves analyzing and understanding the sentiments expressed in movie-related text data, such as reviews, comments, or social media posts. The goal is to determine the overall sentiment (positive, negative, or neutral) conveyed by the text. This analysis can be valuable for various stakeholders, including movie studios, reviewers, and audiences, by providing insights into public opinion and reception.
 
 Key Components of Movie Sentiment Analysis:
 
-1. Data Collection:
+- 1. Data Collection:
 Sources: Text data can be collected from multiple sources, such as movie review websites (e.g., IMDb, Rotten Tomatoes), social media platforms (e.g., Twitter, Facebook), blogs, and forums.
 Methods: Web scraping, APIs, and manual collection are common methods for gathering relevant text data.
 
