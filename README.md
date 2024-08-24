@@ -5,7 +5,7 @@ Movie sentiment analysis is a process that involves analyzing and understanding 
 
 Key Components of Movie Sentiment Analysis:
 
-- 1. Data Collection:
+### 1. Data Collection:
 Sources: Text data can be collected from multiple sources, such as movie review websites (e.g., IMDb, Rotten Tomatoes), social media platforms (e.g., Twitter, Facebook), blogs, and forums.
 Methods: Web scraping, APIs, and manual collection are common methods for gathering relevant text data.
 
